@@ -1,5 +1,43 @@
 
+عالی! پرامپ‌های آماده زیر رو دقیقاً کپی کن و برای ابزار Stable Diffusion یا Dumper استفاده کن.
 
+1) Stable Diffusion — پرامپ کامل
+• Prompt:
+  A high-quality flat sketch (line art) of a comfortable smart elderly wear set, consisting of a loose-fitting long-sleeve top and relaxed pants. Show both front and back views on a white background, no mannequin or people, just the garment laid flat. Style: clean, professional, modern, akin to international brand catalogs. Silhouette should be loose and comfortable. Include clear annotations with Persian text and arrows at key areas: 
+  • Fabric: soft cotton, hypoallergenic, with smart fibers
+  • Technology: biometric sensors for heart rate, body temperature, and stress
+  • Capability: vibration alert to prevent bed sores
+  • Sensor placements: back of neck, wrist, and waist
+  • Stitching: simple and comfortable
+  • Season: four seasons
+  Color palette at bottom with three calming Pantone codes (Persian labels): 
+  • خاکستری ملایم — Pantone (placeholder)
+  • آبی آرام — Pantone (placeholder)
+  • سبز روشن — Pantone (placeholder)
+  General specs in Persian: سایزبندی, جنس پارچه, مدل دوخت, روش شستشو
+  A small box below with Persian caption: "این لباس هوشمند برای سالمندان طراحی شده تا با هشدار لرزشی و سنسورهای پایش سلامتی، از مشکلاتی مانند زخم بستر و ضعف عضلات جلوگیری کند."
+  Background white.
+• Negative prompt:
+  no mannequin, no people, no text outside designated annotations, no color distractions, no logos, no background clutter
+• Parameters (پیشنهادات):
+  Seed: 42
+  CFG: 7.0
+  Steps: 50
+  Line weight: strong for clarity
+
+2) Dumper — پرامپ کوتاه و سریع
+• Prompt:
+  Flat line drawing of a comfortable elder-friendly smart clothing set: loose long-sleeve top and relaxed pants. Front and back views on white, no mannequin or figures. Clean, modern, professional look like international brands. Arrows with Persian labels at key points: fabric, technology sensors, capability, sensor locations (neck back, wrist, waist), stitching, season. Bottom: three calming Pantone colors with Persian names. Persian spec box: سایزبندی، جنس پارچه، مدل دوخت، روش شستشو. Small Persian description box: "این لباس هوشمند برای سالمندان...".
+• Parameters:
+  Seed: 123
+  CFG: 10
+  Steps: 40
+
+• Notes:
+  اگر Pantone دقیق را می‌خواهی، مقادیر کد Pantone سه رنگ را بده تا اضافه کنم.
+  اندازه را بگو تا نسخه رزولوشن مناسب ساخته شود (مثلاً 1024x1024 یا 2048x2048).
+
+خواستی توصیفی تغییر دادم یا می‌خواهی این رو مستقیماً اجرا کنی و رزولوشن خاصی رو مشخص کنی؟
 <a href="https://graphite.rs/">
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/9366c148-4405-484f-909a-9a3526eb9209">
